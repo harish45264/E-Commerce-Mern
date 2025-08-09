@@ -49,17 +49,13 @@ The platform allows users to browse products, view details, manage their cart, a
 │ │ ├── index.js  
 │ │ └── index.css  
 ├── README.md  
-  
 
-yaml
-Copy
-Edit
 
 ---
 
 ## 📸 Screenshot
 
-![App Screenshot](./Screenshot.png)
+![App Screenshot](./MainPage.png)
 
 ---
 
@@ -86,12 +82,12 @@ Edit
   The frontend will start on http://localhost:3000.
 ```
 ## 📬 API Endpoints (Express)
-Method	Endpoint	Description
-GET	/api/products	Get all products
-GET	/api/products/:id	Get single product
-POST	/api/users	Register new user
-POST	/api/users/login	User login
-POST	/api/orders	Create new order
+Method	Endpoint	Description  
+GET	/api/products	Get all products  
+GET	/api/products/:id	Get single product  
+POST	/api/users	Register new user  
+POST	/api/users/login	User login  
+POST	/api/orders	Create new order  
 
 ## ✅ Future Enhancements
   - Product reviews & ratings
@@ -109,3 +105,4 @@ Feel free to fork the repository and submit pull requests. All contributions are
 * [Bootstrap Docs](https://getbootstrap.com/)
 * [MongoDB](https://www.mongodb.com/)
 * [Express.js](https://expressjs.com/)
+
