@@ -66,29 +66,26 @@ Edit
 ## 🔧 Installation and Setup Instructions
 
 ### 1. Clone the repo
+  ```
+  git clone https://github.com/your-username/ecommerce-mern.git
+  cd ecommerce-mern
+```
 
-```bash
-git clone https://github.com/your-username/ecommerce-mern.git
-cd ecommerce-mern
-2. Backend Setup
-bash
-Copy
-Edit
-cd backend
-npm install
-npm run server
-Make sure MongoDB is running locally or update your connection string in config file.
-
-3. Frontend Setup
-bash
-Copy
-Edit
-cd frontend
-npm install
-npm start
-The frontend will start on http://localhost:3000.
-
-📬 API Endpoints (Express)
+### 2. Backend Setup
+```
+  cd backend
+  npm install
+  npm run server
+  Make sure MongoDB is running locally or update your connection string in config file.
+```
+### 3. Frontend Setup
+```
+  cd frontend
+  npm install
+  npm start
+  The frontend will start on http://localhost:3000.
+```
+## 📬 API Endpoints (Express)
 Method	Endpoint	Description
 GET	/api/products	Get all products
 GET	/api/products/:id	Get single product
@@ -96,28 +93,19 @@ POST	/api/users	Register new user
 POST	/api/users/login	User login
 POST	/api/orders	Create new order
 
-✅ Future Enhancements
-Product reviews & ratings
+## ✅ Future Enhancements
+  - Product reviews & ratings
+  - Payment gateway integration
+  - Order history for users
+  - Admin panel for product management
 
-Payment gateway integration
-
-Order history for users
-
-Admin panel for product management
-
-🤝 Contribution
+## 🤝 Contribution
 Feel free to fork the repository and submit pull requests. All contributions are welcome!
 
-🙌 Acknowledgements
-React Docs
 
-MongoDB
+## 🙌 Acknowledgements
 
-Express.js
-
-Node.js
-
-pgsql
-Copy
-Edit
-
+* [React Docs](https://reactjs.org/)
+* [Bootstrap Docs](https://getbootstrap.com/)
+* [MongoDB](https://www.mongodb.com/)
+* [Express.js](https://expressjs.com/)
