@@ -1,4 +1,4 @@
-z# 🛒 E-Commerce Website with MERN Stack
+# 🛒 E-Commerce Website with MERN Stack
 
 A fully responsive and dynamic e-commerce web application built using the **MERN stack** (MongoDB, Express.js, React, Node.js) without any external UI libraries.  
 The platform allows users to browse products, view details, manage their cart, and complete the checkout process.
@@ -31,24 +31,25 @@ The platform allows users to browse products, view details, manage their cart, a
 
 ## 📂 Project Structure
 
-/ecommerce-mern
-├── backend
-│ ├── server.js
-│ ├── models/
-│ ├── routes/
-│ ├── controllers/
-│ └── config/
-├── frontend
-│ ├── public/
-│ ├── src/
-│ │ ├── Components/
-│ │ ├── Context/
-│ │ ├── Pages/
-│ │ ├── App.js
-│ │ ├── App.css
-│ │ ├── index.js
-│ │ └── index.css
-├── README.md
+/ecommerce-mern  
+├── backend  
+│ ├── server.js  
+│ ├── models/  
+│ ├── routes/  
+│ ├── controllers/  
+│ └── config/  
+├── frontend  
+│ ├── public/  
+│ ├── src/  
+│ │ ├── Components/  
+│ │ ├── Context/  
+│ │ ├── Pages/  
+│ │ ├── App.js  
+│ │ ├── App.css  
+│ │ ├── index.js  
+│ │ └── index.css  
+├── README.md  
+  
 
 yaml
 Copy
@@ -119,3 +120,4 @@ Node.js
 pgsql
 Copy
 Edit
+
