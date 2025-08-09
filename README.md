@@ -16,18 +16,18 @@ A fully responsive and dynamic e-commerce platform built with the **MERN stack**
 
 ## 🗂 Project Structure
 frontend/
-├── public/ # Static files
-├── src/
-│ ├── Components/ # Reusable UI components
-│ ├── Context/ # Global state management
-│ ├── Pages/ # Pages (Home, Product, Cart, Checkout)
-│ ├── App.js # Main React app
-│ ├── App.css # Main styles
-│ ├── index.js # Entry point
-│ ├── index.css # Global CSS
-│ ├── logo.svg # App logo
-│ ├── reportWebVitals.js # Performance metrics
-│ └── setupTests.js # Testing setup
+- ├── public/ # Static files
+- ├── src/
+- │ ├── Components/ # Reusable UI components
+- │ ├── Context/ # Global state management
+- │ ├── Pages/ # Pages (Home, Product, Cart, Checkout)
+- │ ├── App.js # Main React app
+- │ ├── App.css # Main styles
+- │ ├── index.js # Entry point
+- │ ├── index.css # Global CSS
+- │ ├── logo.svg # App logo
+- │ ├── reportWebVitals.js # Performance metrics
+- │ └── setupTests.js # Testing setup
 
 
 ---
@@ -57,3 +57,4 @@ frontend/
 -> Node.js 14+
 -> MongoDB (local or cloud via MongoDB Atlas)
 -> Modern browser
+
